@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador</title>
+    <link rel="stylesheet" href="estilos.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Inter&family=Montserrat:ital,wght@1,300&display=swap" rel="stylesheet">
+    
+</head>
+<body>
+    <div class="container">
+        <div class="logo">
+            <img src="Vector.png" alt="logo" class="logo-img">
+            <h1 class="titulo">cifrador de texto</h1>
+
+        </div>
+        <div class="izquierda">
+            <input id="input-texto" class="text-input" type="text" placeholder="Ingrese el texto aquí">
+    
+        </div>
+        <div class="derecha">
+            <img src="Muñeco.png" alt="muñeco" id="imgder">
+            <h2 id="texto">Ningun mensaje fue encontrado</h2>
+            <textarea name="name" id="texto2" cols="30" rows="10">Ingrese el texto que desee Encripta o Desencritar</textarea>
+            <button id="copiar" onclick="copy1()">Copiar</button>
+        </div>
+        <div class="izquierda-boton">
+            <img src="simbolo exclamacion.png" class="exclamacion">
+            <p>Solo letras minusculas y sin acentos</p>
+            <button id="botonEncriptar" onclick="encriptar()">Encriptar</button>
+            <button id="botonDesencriptar" onclick="desencriptar()">Desencriptar</button>
+        </div>
+
+
+    </div>
+    <footer class="pie-de-pagina">
+        <p class="copyright">&copy Copyright Creado por Felix Sebastian Olima Quinteros - 2022</p>
+    </footer>
+    <script src="app.js"></script>
+</body>
+</html>
